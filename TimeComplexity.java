@@ -66,3 +66,37 @@ public class TimeComplexity {
         }
     }
 }
+
+---OUTPUT---
+
+=== Input size: 1 ===
+Hello
+Constant Time - Time: 22400 ns, Complexity: O(1)
+Logarithmic Time - Time: 15000 ns, Complexity: O(log n)
+Linear Time - Time: 17500 ns, Complexity: O(n)
+Linearithmic Time - Time: 148000 ns, Complexity: O(n log n)
+Quadratic Time - Time: 400 ns, Complexity: O(n^2)
+
+=== Input size: 5 ===
+Hello
+Constant Time - Time: 41100 ns, Complexity: O(1)
+Logarithmic Time - Time: 2500 ns, Complexity: O(log n)
+Linear Time - Time: 3800 ns, Complexity: O(n)
+Linearithmic Time - Time: 12600 ns, Complexity: O(n log n)
+Quadratic Time - Time: 600 ns, Complexity: O(n^2)
+
+=== Input size: 10 ===
+Hello
+Constant Time - Time: 8500 ns, Complexity: O(1)
+Logarithmic Time - Time: 2300 ns, Complexity: O(log n)
+Linear Time - Time: 5100 ns, Complexity: O(n)
+Linearithmic Time - Time: 3000 ns, Complexity: O(n log n)
+Quadratic Time - Time: 1200 ns, Complexity: O(n^2)
+
+=== Input size: 15 ===
+Hello
+Constant Time - Time: 7600 ns, Complexity: O(1)
+Logarithmic Time - Time: 3000 ns, Complexity: O(log n)
+Linear Time - Time: 9000 ns, Complexity: O(n)
+Linearithmic Time - Time: 4800 ns, Complexity: O(n log n)
+Quadratic Time - Time: 1900 ns, Complexity: O(n^2)
